@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using Vidly.Models;
-using Vidly.Models.Customer;
 
 namespace Vidly.ViewModels
 {
@@ -11,6 +10,6 @@ namespace Vidly.ViewModels
     {
         public Movie Movie { get; set; }
 
-        public List<Customer> Customer { get; set; }
+        public List<Customer> Customers { get; set; }
     }
 }
